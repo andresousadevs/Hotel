@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre´s Hoteis - Sua Melhor Opção - Página Inicial</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  
+   <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            .hero {
+    background-image: url('img/pousada.jpg');
+}
+            background-size: cover;
+            color: rgb(233, 241, 241);
+            padding: 100px 0;
+            text-align: center;
+        }
+        .section-title {
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header-bg text-center py-4">
+        <h1>Andre´s Hoteis <h1>
+    <h5>Sua Melhor Opção</h5>
+    
+        </header>
+    
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="container">
+            <h2>Sinta o conforto acolhedor de nossas hospedagens</h2>
+            <p>Hospede-se em nossos hotéis com quartos a partir de R$ 100,00.</p>
+            <a href="#" class="btn btn-primary">SAIBA MAIS</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Por que se hospedar em nossos hotéis?</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h4>Delicioso café da manhã</h4>
+                <p>Incluso em todas as diárias.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Fácil acesso</h4>
+                <p>Próximo dos principais pontos turísticos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção Quartos -->
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Nossos Quartos</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h5>Suite Solteiro</h5>
+                <img src="img/solteiro.jpg" alt="Suite solteiro" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>Suite Casal</h5>
+                <img src="img/casal.jpg" alt="Suite Casal" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>Suite Master</h5>
+                <img src="img/master.jpg" alt="Suite Master" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção Reserva -->
+    <div class="container my-5">
+        <div class="section-title text-center">
+            <h3>Faça sua Reserva</h3>
+        </div>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="checkin">Data de Entrada</label>
+                    <input type="date" class="form-control" id="checkin" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="checkout">Data de Saída</label>
+                    <input type="date" class="form-control" id="checkout" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper

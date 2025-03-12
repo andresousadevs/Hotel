@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background-image: url('img/pousada.jpg');
+    background-size: cover; /* Preenche a tela sem distorcer */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Mantém a seção sempre ocupando a tela toda */
+}
+
+
+.section-title {
+    margin: 40px 0;
+}
+
+.bg-light {
+    min-height: 200px; /* Ajuste a altura conforme necessário */
+    background-color: #e9ecef;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+
+h5 {
+    margin-bottom: 10px; /* Reduz o espaço entre o título e a imagem */
+}
+
+.img-fluid {
+    max-height: 250px; /* Ajusta a altura máxima para não ficar exagerado */
+    object-fit: cover; /* Mantém a proporção sem distorcer */
+}
+
+.header-bg {
+    background-color: #199181; /* Verde bonito que remete à natureza */
+    color: white; /* Texto branco para contraste */
+    padding: 20px 0; /* Ajusta a altura do cabeçalho */
+    text-align: center; /* Garante que o logo fique centralizado */
+    width: 100%; /* Faz o fundo cobrir toda a largura da tela */
+}
+.hero h2, 
+.hero p {
+    color: #0d373f; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); /* Sombra escura para destacar */
+}
