@@ -84,32 +84,57 @@
     </div>
 
     <!-- Seção Reserva -->
-    <div class="container my-5">
-        <div class="section-title text-center">
-            <h3>Faça sua Reserva</h3>
-        </div>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="checkin">Data de Entrada</label>
-                    <input type="date" class="form-control" id="checkin" required>
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="checkout">Data de Saída</label>
-                    <input type="date" class="form-control" id="checkout" required>
-                </div>
-            </div>
-            <div class="form-group">
+   <!-- Seção Reserva -->
+<div class="container my-5">
+    <div class="section-title text-center">
+        <h3>Faça Sua Reserva</h3>
+        <p class="text-muted">
+            Entre em contato conosco informando as datas desejadas. Retornaremos informando a disponibilidade e repassando detalhes da reserva.
+        </p>
+    </div>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
                 <label for="nome">Nome</label>
                 <input type="text" class="form-control" id="nome" placeholder="Seu Nome" required>
             </div>
-            <div class="form-group">
+            <div class="form-group col-md-6">
                 <label for="email">E-mail</label>
                 <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required>
             </div>
-            <button type="submit" class="btn btn-success">Enviar</button>
-        </form>
-    </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="checkin">Data de Entrada</label>
+                <input type="date" class="form-control" id="checkin" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="checkout">Data de Saída</label>
+                <input type="date" class="form-control" id="checkout" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="adultos">Adultos</label>
+                <input type="number" class="form-control" id="adultos" min="1" placeholder="Quantidade">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="criancas">Crianças</label>
+                <input type="number" class="form-control" id="criancas" min="0" placeholder="Quantidade">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="observacoes">Observações</label>
+            <textarea class="form-control" id="observacoes" rows="3" placeholder="Informe alguma observação..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>
+
 
     <!-- Scripts do Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
